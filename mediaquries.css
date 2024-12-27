@@ -1,0 +1,79 @@
+@media screen and (max-width: 700px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbar .border-btn,
+  .footer-list {
+    display: none;
+  }
+
+  .navlist {
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--card-clr);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20rem;
+    z-index: 3;
+    transform: translateX(-100%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .list-active {
+    transform: translateX(0);
+  }
+
+  .hamburger,
+  .navbar .navlist li .border-btn {
+    display: block;
+  }
+
+  .column {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .hero {
+    padding-block: 2.5rem;
+  }
+
+  h1 {
+    font-size: 9vw;
+    line-height: 12vw;
+  }
+
+  p {
+    font-size: 0.9rems;
+  }
+
+  h2 {
+    font-size: 6.5svw;
+  }
+
+  .slider {
+    padding-left: 2rem;
+  }
+
+  .card-image {
+    height: 230px;
+  }
+
+  h3 {
+    font-size: 4vw;
+  }
+
+  form {
+    padding: 2rem;
+  }
+
+  form h2 {
+    font-size: 6vw;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
