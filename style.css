@@ -233,8 +233,7 @@ p {
   margin-block: 3rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* column-gap: 0.5rem;
-  row-gap: 0.5rem; */
+  gap: 1rem;
 }
 
 .grid-container img {
